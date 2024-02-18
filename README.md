@@ -35,3 +35,6 @@ React Native.
 dinâmica em listas;
 * Empregar elementos visuais em um aplicativo React Native.
 <hr>
+<h2> Códigos </h2>
+
+
