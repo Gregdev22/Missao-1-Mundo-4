@@ -410,6 +410,10 @@ export default Lista;
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%203.png" alt="resultado 1" width="640" height="360">
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%204%20Excluir.png" alt="resultado 1" width="640" height="360">
 <br>
-video aqui
+
+
+https://github.com/Gregdev22/Missao-1-Mundo-4/assets/103840468/13488ef0-5b26-402b-977f-2893db763e58
+
+
 <br>
 <hr>
