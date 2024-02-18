@@ -18,8 +18,11 @@
 <hr>
  <h1 align="center"> Missão Prática | Nível 1 | Mundo 4 </h1>
  <h2 align="left" > Adicionando interatividade com o React Native. </h2> 
- <h3>Procedimento 1: Criando o Servidor e Cliente de Teste </h3>
- <h3>Procedimento 2: Servidor Completo e Cliente Assíncrono </h3>
+ <h3>Microatividade 1: Configurar o ambiente de desenvolvimento React Native </h3>
+ <h3>Microatividade 2: Implementar a funcionalidade de entrada de texto em um componente React Native</h3>
+ <h3>Microatividade 3: Implementar um Componente de Lista Dinâmica (ScrollView)</h3>
+ <h3>Microatividade 4: Criando o visualizador de listas </h3>
+ <h3>Microatividade 5: Empregar imagens, seja para exibir gráficos, ícones, fotos ou outros elementos visuais em um aplicativo React Native </h3>
  <hr>
 
  <h2> :clipboard: Objetivos da Prática </h2>
