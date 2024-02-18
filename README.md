@@ -366,3 +366,29 @@ const styles = StyleSheet.create({
 
 export default Lista;
 ```
+ <br>
+  <hr>
+  
+<h1>Resultados: </h1>
+:triangular_flag_on_post: Microatividade 1: 
+<img src="" alt="resultado 1" width="640" height="360">
+
+
+<br>
+:triangular_flag_on_post: Microatividade 2: 
+<img src=" alt="resultado 1" width="640" height="360">
+
+:triangular_flag_on_post: Microatividade 3: 
+<img src="" alt="resultado 1" width="640" height="360">
+
+
+<br>:triangular_flag_on_post: Microatividade 4: 
+<img src="" alt="resultado 1" width="640" height="360">
+
+
+<br>:triangular_flag_on_post: Microatividade 5: 
+<img src="" alt="resultado 1" width="640" height="360">
+
+
+<br>
+<hr>
