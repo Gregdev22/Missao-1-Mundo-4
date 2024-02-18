@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Text, View, FlatList, TextInput, Image, StyleSheet, Button } from 'react-native';
+import { Text, View, FlatList, TextInput, Image, StyleSheet,Button} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const Lista = ({ navigation, route}) => {
+const Lista = () => {
   const [fornecedores, setFornecedores] = useState([]);
-  const [filteredFornecedores, setFilteredFornecedores] = useState([]);
+  const [localFornecedor, setLocalFornecedor] = useState([]);
   const [search, setSearch] = useState('');
 
   useEffect(() => {
@@ -21,35 +21,34 @@ const Lista = ({ navigation, route}) => {
   }, []);
 
   useEffect(() => {
-    setFilteredFornecedores(
+    setLocalFornecedor(
       fornecedores.filter((fornecedor) =>
         fornecedor.nome.toLowerCase().includes(search.toLowerCase())
       )
     );
   }, [search, fornecedores]);
 
+  const deleteFornecedor = (index) => {
+    const itensCopy = Array.from(fornecedores);
+    itensCopy.splice(index, 1);
+    setFornecedores(itensCopy);
+    AsyncStorage.setItem('@fornecedor', JSON.stringify(fornecedores));
+    //AsyncStorage.removeItem('@fornecedor');
+  }
+
   const renderItem = ({ item, index }) => (
-    <View style={[styles.itemContainer, {backgroundColor: index % 2 === 0 ? '#ddd' : '#eee'}]}>
-      <Image source={item.image ? { uri: item.image } : require('./logo.svg')} style={styles.image} />
-      <Text style={styles.itemText}>{item.nome}</Text>
-      <Text style={styles.itemText}>{item.endereco}</Text>
-      <Text style={styles.itemText}>{item.contato}</Text>
-      <Text style={styles.itemText}>{item.categorias}</Text>
-      <Button title="Excluir"/>
-    </View>
+      <View style={[styles.itemContainer, {backgroundColor: index % 2 === 0 ? '#e0ffff' : '#778899'}]}>
+        <Button 
+        title="Excluir" 
+        onPress={() => deleteFornecedor(index)}
+        />
+        <Text style={styles.itemText}>{item.nome}</Text>
+        <Text style={styles.itemText}>{item.endereco}</Text>
+        <Text style={styles.itemText}>{item.contato}</Text>
+        <Text style={styles.itemText}>{item.categorias}</Text>
+        <Image source={item.image ? { uri: item.image } : require('./logo.svg')} style={styles.image} />
+      </View>
   );
-
-  /*Função limpar. Teste.  
-  const limpar = async () => {
-    try {
-      const existingSuppliers = await AsyncStorage.removeItem('@fornecedor');
-    } catch (e) {
-      console.log(e);
-    }
-  };
-
-  <Button title="Excluir" onPress={limpar}/>
-  */
 
   return (
     <View style={styles.container}>
@@ -60,7 +59,7 @@ const Lista = ({ navigation, route}) => {
         placeholder="Pesquisar"
       />
       <FlatList
-        data={filteredFornecedores}
+        data={localFornecedor}
         renderItem={renderItem}
         keyExtractor={(item) => item.nome}
       />
@@ -72,27 +71,29 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
-    backgroundColor: 'white',
+    backgroundColor: 'white',    
   },
   input: {
-    height: 40,
-    borderColor: 'grey',
+    height: 30,
+    width:500,
+    borderColor: 'black',
     borderWidth: 1,
-    paddingLeft: 10,
-    marginBottom: 10,
+    paddingLeft: 1,
+    marginBottom: 5,
   },
   itemContainer: {
     flex: 1,
     flexDirection: 'row',
-    paddingBottom: 10,
+    paddingBottom: 1,
   },
   image: {
     width: 50,
     height: 50,
-    marginRight: 10,
+    marginRight: 1,
   },
   itemText: {
     flex: 1,
+    fontSize: 20,
   },
 });
 
