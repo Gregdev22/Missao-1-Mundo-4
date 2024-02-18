@@ -27,11 +27,11 @@
 
  <h2> :clipboard: Objetivos da Prática </h2>
 
-* Criar servidores Java com base em Sockets.
-* Criar clientes síncronos para servidores com base em Sockets.
-* Criar clientes assíncronos para servidores com base em Sockets.
-* Utilizar Threads para implementação de processos paralelos.
-* No final do exercício, o aluno terá criado um servidor Java baseado em Socket, com acesso ao banco de dados via JPA, além de utilizar os recursos nativos do Java para
-implementação de clientes síncronos e assíncronos. As Threads serão usadas tanto no servidor, para viabilizar múltiplos clientes paralelos, quanto no cliente, para implementar a resposta assíncrona.
+* Configurar o ambiente de desenvolvimento React Native.
+* Implementar a funcionalidade de entrada de texto em um componente
+React Native.
+* Implementar um Componente de Lista Dinâmica (ScrollView);.
+* Implementar componentes React Native para exibir informações de forma
+dinâmica em listas;
+* Empregar elementos visuais em um aplicativo React Native.
 <hr>
-Teste 2
