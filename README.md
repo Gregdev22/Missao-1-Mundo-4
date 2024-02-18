@@ -395,4 +395,20 @@ export default Lista;
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/Microatividades/ma1/public/Microat5ividade%205.2.png" alt="resultado 1" width="640" height="360">
 
 <br>
+:triangular_flag_on_post: Cadastro App: 
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%201.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%202.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%203.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%204.png" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+
+<br>
 <hr>
