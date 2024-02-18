@@ -400,15 +400,16 @@ export default Lista;
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%202.png" alt="resultado 1" width="640" height="360">
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%203.png" alt="resultado 1" width="640" height="360">
 <img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%204.png" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Home.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Cadastrar.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Cadastro%201.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Cadastro%202.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%201.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%202.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%203.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-1-Mundo-4/blob/main/cadastro_app/public/MP%20Lista%204%20Excluir.png" alt="resultado 1" width="640" height="360">
+<br>
+video aqui
 <br>
 <hr>
